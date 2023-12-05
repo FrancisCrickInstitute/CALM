@@ -25,4 +25,5 @@ dependencies:
 - pip:
     - cellprofiler==4.2.6
     - stardist
+    - tensorflow
     - cellpose
