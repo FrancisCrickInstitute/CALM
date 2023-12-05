@@ -1,4 +1,4 @@
-name: cp426_nemo_v1
+name: cp426_cellpose_gui_dec23
 
 channels:
 - conda-forge
