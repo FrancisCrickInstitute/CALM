@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 # Load anaconda and init
 source ~/.bashrc
 ml Anaconda3
@@ -9,7 +7,7 @@ ml Anaconda3
 #Load other modules
 ml GCC
 ml Java
-#mamba init bash
+conda init bash
 
 #Load Virtual GL
 ml VirtualGL
