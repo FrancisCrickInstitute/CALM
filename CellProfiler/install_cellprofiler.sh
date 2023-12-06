@@ -31,7 +31,7 @@ else
     exit 1
 fi
 
-# Check to see if the environtment already exists
+# Check to see if the environment already exists
 # Specify the path to your YAML file
 yaml_file="$download_folder/cp_426.yml"
 
