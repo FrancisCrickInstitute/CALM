@@ -33,3 +33,19 @@ This will take between 5-10 minutes, depending on how many resources you asked f
 If all goes well, CellProfiler will download and be installed in a new mamba/conda environment. This should be reported by the install file at the end of the process
 
 ### To Run: 
+In the directory in which you downloaded the run_cellprofiler.sh file, run the command
+
+"./run_cellprofiler.sh"   without the quotes
+
+### To Download and use plugins:
+Make a directory to store the plugins in your working directory.  The plugins are small python scripts, you do not need a lot of room.
+
+In the directory where you downloaded the Download_CellProfiler_Plugins.sh run the command
+
+"./Download_CellProfiler_Plugins.sh /path/to/your/folder"      without the quotes, Where /path/to/your/folder is replaced by the path to the folder you made for the plugins
+
+Open CellProfiler again using "./run_cellprofiler.sh"
+
+Under "File" --> "Preferences" --> set the "CellProfiler plugins directory" to your plugins directory.
+
+
