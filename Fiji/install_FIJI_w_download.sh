@@ -11,6 +11,9 @@ wget -O "$current_directory/$filename" "$FIJI_URL"
 #unzip the file
 unzip $filename
 
+#remove the zip file
+rm -r fiji-linux64.zip
+
 #change directory to the Fiji
 cd Fiji.app
 
@@ -30,6 +33,3 @@ echo "File created at: $output_file"
 cd $HOME
 chmod u+x $output_file
 
-#remove the downloaded file
-chmod u+x fiji-linux64.zip
-rm fiji-linux64.zip
