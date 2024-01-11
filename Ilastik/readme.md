@@ -5,3 +5,22 @@ Ilastik is a pixel based classifier, that works in both 2D and 3D. It is very po
 To use it, you "simply" paint with your mouse cursor the background of your image, as well as representative regions that you are trying to segment. 
 This is done iteratively to create a good pixel classifier that can be run on many images, either through Ilastik or imported into your FIJI or CellProfiler pipelines.  
 We support Ilastik on some of our [Image Analysis Workstations](https://github.com/FrancisCrickInstitute/CALM/wiki/Workstations) and on the Nemo Compute Cluster (HPC). 
+
+
+## Using Ilastik on Nemo OnDemand (HPC)
+1.) Spin up a GPU version of OnDemand Desktop. Please be considerate when choosing resources, and don't choose more than you need, but do choose enough to accomplish your task in a timely manner.
+
+2.) At the OnDemand desktop, right click anywhere on the screen to bring up a menu, and then launch "xterm"
+
+3.) Type in the following commands to load VirtualGL and Ilastik
+
+>>ml VirtualGL
+>>ml ilastik/1.4.0.post1-gpu
+>>cd /camp/apps/eb/software/ilastik/1.4.0.post1-gpu/
+>>./run_ilastik.sh
+
+You can also download this file, which is a short batch script that does the above commands. You can save it to your home directory and then type 
+>>./ilastik.sh
+To load ilastik, as opposed to the above commands. 
+
+
