@@ -31,4 +31,5 @@ cd $HOME
 chmod u+x $output_file
 
 #remove the downloaded file
+chmod u+x fiji-linux64.zip
 rm fiji-linux64.zip
