@@ -26,7 +26,7 @@ HPC Helpfully supports a pre-installed version of Ilastik on nemo, that you can 
 
 You can also download [this file](https://github.com/FrancisCrickInstitute/CALM/blob/master/Ilastik/ilastik.sh), which is a short batch script that does the above commands. You can save it to your home directory and then type 
 
-      __./ilastik.sh__
+      ./ilastik.sh
 
 To load ilastik, as opposed to the above commands. 
 
