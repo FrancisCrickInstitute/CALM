@@ -8,6 +8,10 @@ We support Ilastik on some of our [Image Analysis Workstations](https://github.c
 
 
 ## Using Ilastik on Nemo OnDemand (HPC)
+HPC Helpfully supports a pre-installed version of Ilastik on nemo, that you can use on Nemo Compute or OnDemand.
+
+### To use Ilastik on OnDemand:
+
 1.) Spin up a GPU version of OnDemand Desktop. Please be considerate when choosing resources, and don't choose more than you need, but do choose enough to accomplish your task in a timely manner.
 
 2.) At the OnDemand desktop, right click anywhere on the screen to bring up a menu, and then launch "xterm"
@@ -28,5 +32,8 @@ You can also download [this file](https://github.com/FrancisCrickInstitute/CALM/
       ./ilastik.sh
 
 To load ilastik, as opposed to the above commands. 
+
+## Using your own version of Ilastik on HPC
+You can also download and use your own version of Ilastik on HPC. To do so, download the linux version of Ilastik into your working directorry, and follow [these instructions](https://www.ilastik.org/documentation/basics/installation).
 
 
