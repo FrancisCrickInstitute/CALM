@@ -14,13 +14,13 @@ We support Ilastik on some of our [Image Analysis Workstations](https://github.c
 
 3.) Type in the following commands to load VirtualGL and Ilastik
 
->>ml VirtualGL
->>ml ilastik/1.4.0.post1-gpu
->>cd /camp/apps/eb/software/ilastik/1.4.0.post1-gpu/
->>./run_ilastik.sh
+--ml VirtualGL
+--ml ilastik/1.4.0.post1-gpu
+--cd /camp/apps/eb/software/ilastik/1.4.0.post1-gpu/
+--./run_ilastik.sh
 
 You can also download this file, which is a short batch script that does the above commands. You can save it to your home directory and then type 
->>./ilastik.sh
+--./ilastik.sh
 To load ilastik, as opposed to the above commands. 
 
 
