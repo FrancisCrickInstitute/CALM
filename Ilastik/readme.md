@@ -23,7 +23,7 @@ We support Ilastik on some of our [Image Analysis Workstations](https://github.c
       ./run_ilastik.sh
 
 
-You can also download this file, which is a short batch script that does the above commands. You can save it to your home directory and then type 
+You can also download [this file](https://github.com/FrancisCrickInstitute/CALM/blob/master/Ilastik/ilastik.sh), which is a short batch script that does the above commands. You can save it to your home directory and then type 
 
       ./ilastik.sh
 
