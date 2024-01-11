@@ -1,3 +1,4 @@
+#### Installing QuPath on HPC the "easy way"
 
 #### Installing QuPath in your working directory 
 * Download QuPath for Linux and put it in your working directory on nemo. It will have a file extension of .tar.xz
