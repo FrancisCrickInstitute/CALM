@@ -9,7 +9,7 @@
 
 * At anypoint you want to run QuPath, you can run the script **./RunQuPath.sh** from your home directory (the first directory that opens when you start xterm)
 
-#### Installing QuPath in your working directory 
+#### Installing QuPath in your working directory (The harder way)
 * Download QuPath for Linux and put it in your working directory on nemo. It will have a file extension of .tar.xz
 * Open up an OnDemand GPU Desktop. For instructions on how to do this, see [this documentation].
 * Open up a terminal in OnDemand (right click anywhere on the screen and open up xterm)
