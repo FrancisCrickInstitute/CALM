@@ -1,0 +1,13 @@
+name: napari-env2-nemo
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - devbio-napari
+  - pyqt
+  - napari-aicsimageio
+  - pip:
+      - xmlschema
