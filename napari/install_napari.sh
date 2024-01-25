@@ -77,7 +77,12 @@ fi
 
 echo "Created environment"
 
-#remove temp folder and yml file
+# set up jupyter notebook kernels
+conda activate napari-env2-nemo
+python -m ipykernel install --user --name=napari-env2-nemo
+python3 -m remote_ikernel manage --add --kernel_cmd="ml purge && ml cuDNN/8.4.1.50-CUDA-11.7.0 && conda activate napari-env2-nemo && ipython3 kernel -f {connection_file}" --name="napari-env2-nemo" --interface=local --workdir="~/"--language=python3
+
+# clean up remove temp folder and yml file
 rm -r "$download_folder"
 
 echo "script completed"
