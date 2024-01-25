@@ -5,9 +5,7 @@ ml Anaconda3
 pip cache purge
 
 # URL of the YAML file on the GitHub
-yaml_url_real="https://raw.githubusercontent.com/FrancisCrickInstitute/CALM/napari/napari/napari-env2-nemo.yml"
-yaml_url="https://raw.githubusercontent.com/vanessadao31/install_napari/master/napari-env2-nemo.yml"
-#file_name="napari-env2-nemo.yml"
+yaml_url="https://raw.githubusercontent.com/FrancisCrickInstitute/CALM/napari/napari/napari-env2-nemo.yml"
 
 # folder to download the yaml file
 download_folder="./tmp"
