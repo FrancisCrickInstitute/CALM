@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# load anaconda and init
+# load anaconda
 source ~/.bashrc
 ml Anaconda3
 
 # load other modules
-conda init bash
+ml GCC
 ml VirtualGL
 
 # activate environment

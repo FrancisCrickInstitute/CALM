@@ -11,3 +11,6 @@ dependencies:
   - napari-aicsimageio
   - pip:
       - xmlschema
+      - ipykernel
+      - remote_ikernel
+      - ikernel_remote
