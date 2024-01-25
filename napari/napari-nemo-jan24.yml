@@ -1,4 +1,4 @@
-name: napari-env2-nemo
+name: napari-nemo-jan24
 channels:
   - conda-forge
   - pytorch

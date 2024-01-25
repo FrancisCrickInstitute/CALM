@@ -5,7 +5,7 @@ ml Anaconda3
 pip cache purge
 
 # URL of the YAML file on the GitHub
-yaml_url="https://raw.githubusercontent.com/FrancisCrickInstitute/CALM/napari/napari/napari-env2-nemo.yml"
+yaml_url="https://raw.githubusercontent.com/FrancisCrickInstitute/CALM/napari/napari/napari-nemo-jan24.yml"
 
 # folder to download the yaml file
 download_folder="./tmp"
@@ -19,7 +19,7 @@ else
 fi
 
 # download the yaml file
-wget -O "$download_folder/napari-env2-nemo.yml" "$yaml_url"
+wget -O "$download_folder/napari-nemo-jan24.yml" "$yaml_url"
 
 # check to see if download was successful
 if [ $? -eq 0 ]; then
@@ -31,7 +31,7 @@ fi
 
 # check to see if the environment already exists
 # specify path to the yaml file
-yaml_file="$download_folder/napari-env2-nemo.yml"
+yaml_file="$download_folder/napari-nemo-jan24.yml"
 
 # check if the file exists
 if [ ! -f "$yaml_file" ]; then
@@ -65,7 +65,7 @@ echo "'$environment_name'"
 cd $download_folder
 echo "$PWD"
 
-mamba env create --file napari-env2-nemo.yml
+mamba env create --file napari-nemo-jan24.yml
 
 # check if the conda environment exists
 if conda env list | grep -q "$environment_name"; then
@@ -78,9 +78,9 @@ fi
 echo "Created environment"
 
 # set up jupyter notebook kernels
-conda activate napari-env2-nemo
-python -m ipykernel install --user --name=napari-env2-nemo
-python3 -m remote_ikernel manage --add --kernel_cmd="ml purge && ml cuDNN/8.4.1.50-CUDA-11.7.0 && conda activate napari-env2-nemo && ipython3 kernel -f {connection_file}" --name="napari-env2-nemo" --interface=local --workdir="~/"--language=python3
+conda activate napari-nemo-jan24
+python -m ipykernel install --user --name=napari-nemo-jan24
+python3 -m remote_ikernel manage --add --kernel_cmd="ml purge && ml cuDNN/8.4.1.50-CUDA-11.7.0 && conda activate napari-nemo-jan24 && ipython3 kernel -f {connection_file}" --name="napari-nemo-jan24" --interface=local --workdir="~/"--language=python3
 
 # clean up remove temp folder and yml file
 rm -r "$download_folder"
