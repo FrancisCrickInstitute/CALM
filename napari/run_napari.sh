@@ -10,7 +10,7 @@ ml VirtualGL
 
 # activate environment
 echo "activating environment"
-conda activate napari-env2-nemo
+conda activate napari-nemo-jan24
 
 # loading napari
 echo "Loading napari"
