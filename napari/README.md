@@ -25,20 +25,23 @@ You will know that the process has finished when `script completed` is printed i
 ## Step 3: Run napari
 You can interact with napari in two ways: 
 - OnDemand desktop
-- Jupyter Notebooks
+- Jupyter Lab in OnDemand desktop
 
 #### OnDemand desktop
-Navigate to the folder where the downloaded files are.
+In a terminal, navigate to the folder where the downloaded files are.
 Run the command:
 ```
 ./run_napari.sh
 ```
 This will open a napari window from within OnDemand desktop. Navigate to this file and run this command whenever you want to interact with napari this way.
 
-#### Jupyter Notebooks
-Start a Jupyter Notebook job and open a new notebook.
-Change the kernel (kernel > change kernel > napari-nemo-jan24).
-Begin an instance of napari by copying this code into a cell and running it:
+#### Jupyter Lab
+In a terminal, run the command:
+```
+jupyter lab
+```
+This will open a web browser with jupyter lab in which you can interact with.
+Create a new notebook and begin an instance of napari by copying this code into a cell and running it:
 ```python
 import napari
 viewer = napari.Viewer()
