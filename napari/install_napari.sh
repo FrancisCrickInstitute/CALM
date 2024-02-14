@@ -80,9 +80,11 @@ echo "Created environment"
 # set up jupyter notebook kernels
 ml purge
 conda activate napari-nemo-jan24
+
 pip install remote_ikernel
 python -m ipykernel install --user --name=napari-nemo-jan24
-python3 -m remote_ikernel manage --add --kernel_cmd="ml purge && ml cuDNN/8.4.1.50-CUDA-11.7.0 && conda activate napari-nemo-jan24 && ipython3 kernel -f {connection_file}" --name="napari-nemo-jan24" --interface=local --workdir="~/"--language=python3
+# echo "installing remote ikernel"
+# python3 -m remote_ikernel manage --add --kernel_cmd="ml purge && ml cuDNN/8.4.1.50-CUDA-11.7.0 && conda activate napari-nemo-jan24 && ipython3 kernel -f {connection_file}" --name="napari-nemo-jan24" --interface=local --workdir="~/"--language=python3
 
 # clean up remove temp folder and yml file
 rm -r tmp
