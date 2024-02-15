@@ -1,8 +1,13 @@
 #!/bin/bash
 
 # purge pip
-ml Anaconda3
+source ~/.bashrc
+ml Anaconda3/2023.09-0
 pip cache purge
+
+ml GCC
+ml VirtualGL
+conda init bash
 
 # URL of the YAML file on the GitHub
 yaml_url="https://raw.githubusercontent.com/FrancisCrickInstitute/CALM/napari/napari/napari-nemo-jan24.yml"
@@ -54,7 +59,7 @@ if conda env list | grep -q "$environment_name"; then
 	conda env remove --name "$environment_name" --yes
 	echo "conda environment '$environment_name' removed"
 else
-	echo "conda environment '$environment_name' not found"
+	echo "conda environment '$environment_name' does not already exist"
 fi
 
 # remove all whitespace characters, tabs and newlines
@@ -78,13 +83,13 @@ fi
 echo "Created environment"
 
 # set up jupyter notebook kernels
+# purge modules before activating env
 ml purge
+
+echo "Activating environment"
 conda activate napari-nemo-jan24
 
-pip install remote_ikernel
 python -m ipykernel install --user --name=napari-nemo-jan24
-# echo "installing remote ikernel"
-# python3 -m remote_ikernel manage --add --kernel_cmd="ml purge && ml cuDNN/8.4.1.50-CUDA-11.7.0 && conda activate napari-nemo-jan24 && ipython3 kernel -f {connection_file}" --name="napari-nemo-jan24" --interface=local --workdir="~/"--language=python3
 
 # clean up remove temp folder and yml file
 rm -r tmp
