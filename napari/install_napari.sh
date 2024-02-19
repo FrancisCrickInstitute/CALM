@@ -1,13 +1,17 @@
 #!/bin/bash
+. ~/.bashrc
+
+echo "Loading Anaconda"
+ml Anaconda3/2023.03
 
 # purge pip
-source ~/.bashrc
-ml Anaconda3/2023.09-0
 pip cache purge
 
 ml GCC
 ml VirtualGL
-conda init bash
+
+# if conda hasn't been setup then uncomment the following to initialise
+# conda init bash
 
 # URL of the YAML file on the GitHub
 yaml_url="https://raw.githubusercontent.com/FrancisCrickInstitute/CALM/napari/napari/napari-nemo-jan24.yml"

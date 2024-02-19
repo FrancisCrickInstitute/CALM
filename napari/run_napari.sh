@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# load anaconda and init
+# load anaconda and other modules
 source ~/.bashrc
 
 # load other modules
 ml GCC
 ml VirtualGL
-echo "loaded modules"
+echo "Loaded modules"
 
-# activate environment
+# activate env
 conda deactivate
-echo "activating environment"
+echo "Activating environment"
 conda activate napari-nemo-jan24
 
 # loading napari
