@@ -53,5 +53,10 @@
     cellpose --help
     ```
     If the installation was sucessful, this should produce a list of all the parameters that can be used when running Cellpose.
+8. You can now deactivate your Cellpose environment by running the following:
+
+    ```shell
+    conda deactivate
+    ```
 
 > More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
