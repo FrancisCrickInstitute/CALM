@@ -20,4 +20,20 @@
     ```
     In this example, the environment has been named `cellpose-env`, but you can all it whatever you want.
 
-More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
+4. The terminal will produce output similar to the following, where `user_name` will be replaced with whatever your user name is:
+
+   ```shell
+   Retrieving notices: ...working... done
+   Collecting package metadata (current_repodata.json): done
+   Solving environment: done
+    
+   ## Package Plan ##
+    
+   environment location: /camp/home/user_name/.conda/envs/cellpose-env
+   
+   Proceed ([y]/n)?
+   ```
+
+   Press `y` and Enter to proceed.
+
+> More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
