@@ -60,3 +60,7 @@
     ```
 
 > More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
+
+## Step 2: Install the FIJI - Cellpose Wrapper:
+
+This part should be relatively straightforward. Instructions for installing the Plugin allowing Cellpose to be run from FIJI can be found [here](https://github.com/BIOP/ijl-utilities-wrappers?tab=readme-ov-file#ib-fiji---cellpose-wrapper).
