@@ -8,7 +8,7 @@
 
     ![image](https://github.com/FrancisCrickInstitute/CALM/assets/31737822/c541950a-7dab-4641-982e-b657eb4e530c)
 
-2. You need to set up a [conda](https://en.wikipedia.org/wiki/Conda_(package_manager)) environment, which will contain your Cellpose installation. To do this, you first need to load [Anaconda](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)). Tyoe the following in your terminal window and press Enter:
+2. You need to set up a [conda](https://en.wikipedia.org/wiki/Conda_(package_manager)) environment, which will contain your Cellpose installation. To do this, you first need to load [Anaconda](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)). Tyoe the following in your terminal window and press `Enter`:
 
     ```shell
     ml Anaconda3
@@ -34,6 +34,6 @@
    Proceed ([y]/n)?
    ```
 
-   Press `y` and Enter to proceed.
+   Press `y` and `Enter` to proceed.
 
 > More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
