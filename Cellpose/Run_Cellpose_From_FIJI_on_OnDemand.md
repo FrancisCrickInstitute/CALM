@@ -41,5 +41,10 @@
     ```shell
     conda activate cellpose-env
     ```
+6. At this point, it is important to note that you have merely created what is essentially an empty environment called `cellpose-env`. To actually install Cellpose within this environment, run the following:
+
+    ```shell
+    pip install cellpose
+    ```
 
 > More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
