@@ -36,4 +36,10 @@
 
    Press `y` and `Enter` to proceed.
 
+5. Activate your new Cellpose environment with the following command:
+
+    ```shell
+    conda activate cellpose-env
+    ```
+
 > More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
