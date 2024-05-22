@@ -46,5 +46,12 @@
     ```shell
     pip install cellpose
     ```
+    The terminal will produce a large amount of output as the necessary packages are installed.
+7. To test whether the installation was succesful, run the following:
+
+    ```shell
+    cellpose --help
+    ```
+    If the installation was sucessful, this should produce a list of all the parameters that can be used when running Cellpose.
 
 > More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
