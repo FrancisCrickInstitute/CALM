@@ -4,11 +4,11 @@
 
 ## Step 1: Set up Cellpose
 
-1. When your OnDemand Desktop session starts, right click and select `xterm` to open a terminal:
+1. When your GPU OnDemand Desktop session starts, right click and select `xterm` to open a terminal:
 
     ![image](https://github.com/FrancisCrickInstitute/CALM/assets/31737822/c541950a-7dab-4641-982e-b657eb4e530c)
 
-2. You need to set up a [conda](https://en.wikipedia.org/wiki/Conda_(package_manager)) environment, which will contain your Cellpose installation. To do this, you first need to load [Anaconda](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)). Tyoe the following in your terminal window and press `Enter`:
+2. You need to set up a [conda](https://en.wikipedia.org/wiki/Conda_(package_manager)) environment, which will contain your Cellpose installation. To do this, you first need to load [Anaconda](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)). Type the following in your terminal window and press `Enter`:
 
     ```shell
     ml Anaconda3
@@ -16,7 +16,7 @@
 3. You then need to create the environment that will contain the Cellpose installation, using the following command:
 
     ```shell
-     conda create --name cellpose-env
+     conda create --name cellpose-env python=3.8
     ```
     In this example, the environment has been named `cellpose-env`, but you can all it whatever you want.
 
@@ -41,13 +41,15 @@
     ```shell
     conda activate cellpose-env
     ```
-6. At this point, it is important to note that you have merely created what is essentially an empty environment called `cellpose-env`. To actually install Cellpose within this environment, run the following:
+6. At this point, it is important to note that you have merely created what is essentially an empty environment called `cellpose-env`. To actually install Cellpose within this environment, run the following commands one by one:
 
     ```shell
     pip install cellpose
+    pip uninstall torch
+    conda install pytorch==1.12.0 cudatoolkit=11.3 -c pytorch
     ```
-    The terminal will produce a large amount of output as the necessary packages are installed.
-7. To test whether the installation was succesful, run the following:
+    The terminal will produce a large amount of output as the necessary packages are installed.     Press `y` and `Enter` to proceed.
+7. To test whether the installation was successful, run the following:
 
     ```shell
     cellpose --help
