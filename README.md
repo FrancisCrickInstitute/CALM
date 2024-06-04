@@ -1,3 +1,5 @@
+![Commit activity](https://img.shields.io/github/commit-activity/y/FrancisCrickInstitute/CALM?style=plastic) ![GitHub](https://img.shields.io/github/license/FrancisCrickInstitute/CALM?color=green&style=plastic)
+
 # Greetings & Welcome
 
 If you want to know how to install and run image analysis software on [OnDemand](https://openondemand.org/), you've come to the right place. See below for instructions for specific softwares.
