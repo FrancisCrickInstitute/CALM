@@ -1,6 +1,8 @@
-# How to install Cellpose on OnDemand and run it from FIJI
+# How to install Cellpose on OnDemand
 
-[Cellpose](https://github.com/MouseLand/cellpose) is a general model for cell and nuclear segmentation. Essentially a Python package, it is possible to run it from within FIJI by following these instructions. It is assumed that you have already set up FIJI to run on OnDemand - if not, see [here](https://github.com/FrancisCrickInstitute/CALM/blob/master/Fiji/readme.md).
+[Cellpose](https://github.com/MouseLand/cellpose) is a general model for cell and nuclear segmentation. The following is a simple, step-by-step guide to installing Cellpose on [OnDemand](https://openondemand.org/).
+
+> More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
 
 ## Step 1: Set up Cellpose
 
@@ -60,9 +62,4 @@
     ```shell
     conda deactivate
     ```
-
-> More detailed information on installing Cellpose can be found [here](https://github.com/MouseLand/cellpose?tab=readme-ov-file#installation) if needed.
-
-## Step 2: Install the FIJI - Cellpose Wrapper:
-
-This part should be relatively straightforward. Instructions for installing the Plugin allowing Cellpose to be run from FIJI can be found [here](https://github.com/BIOP/ijl-utilities-wrappers?tab=readme-ov-file#ib-fiji---cellpose-wrapper).
+9. It is possible to run Cellpose directly from FIJI. Instructions for installing the necessary FIJI Plugin can be found [here](https://github.com/BIOP/ijl-utilities-wrappers?tab=readme-ov-file#ib-fiji---cellpose-wrapper).
