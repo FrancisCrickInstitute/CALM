@@ -64,3 +64,9 @@ conda deactivate
 
 ## Step 8 (Optional): Run Cellpose from FIJI
 It is possible to run Cellpose directly from FIJI. Instructions for installing the necessary FIJI Plugin can be found [here](https://github.com/BIOP/ijl-utilities-wrappers?tab=readme-ov-file#ib-fiji---cellpose-wrapper).
+
+## Step 9: Cite!
+If you use Cellpose in your work, be sure to cite the relevant paper:
+* Version 3 (Latest): Carsen Stringer and Marius Pachitariu. Cellpose3: one-click image restoration for improved cellular segmentation. _bioRxiv_ 2024.02.10.579780
+* Version 2: Marius Pachitariu and Carsen Stringer. Cellpose 2.0: how to train your own model. _Nature methods_, 19(12):1634–1641, 2022.
+* Version 1: Carsen Stringer, Tim Wang, Michalis Michaelos, and Marius Pachitariu. Cellpose: a generalist algorithm for cellular segmentation. _Nature methods_, 18(1):100–106, 2021.
