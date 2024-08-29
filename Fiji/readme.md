@@ -7,5 +7,5 @@
 * Start a new xterm (or type in cd $HOME)
 * type in **./Run_Fiji.sh**
 
-* At anypoint you want to run QuPath, you can run the script **./Run_Fiji.sh** from your home directory (the first directory that opens when you start xterm)
+* At anypoint you want to run FIJI, you can run the script **./Run_Fiji.sh** from your home directory (the first directory that opens when you start xterm)
 
