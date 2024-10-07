@@ -33,4 +33,19 @@ To load ilastik, as opposed to the above commands.
 ## Using your own version of Ilastik on HPC
 You can also download and use your own version of Ilastik on HPC. To do so, download the linux version of Ilastik into your working directorry, and follow [these instructions](https://www.ilastik.org/documentation/basics/installation).
 
+## Troubleshooting
+
+### Permission Denied Error when Running Scripts
+
+If you encounter a **"Permission Denied"** error when trying to run the Ilastik script (`./ilastik.sh`), it is likely due to the script not having execute permissions. To resolve this issue, run the following command
+
+     ```
+     chmod +x ilastik.sh
+     ```
+
+Now, try running the script again:
+
+     ```
+     ./ilastik.sh
+     ```
 
