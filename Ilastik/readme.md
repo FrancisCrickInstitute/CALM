@@ -39,13 +39,9 @@ You can also download and use your own version of Ilastik on HPC. To do so, down
 
 If you encounter a **"Permission Denied"** error when trying to run the Ilastik script (`./ilastik.sh`), it is likely due to the script not having execute permissions. To resolve this issue, run the following command
 
-     ```
      chmod +x ilastik.sh
-     ```
 
 Now, try running the script again:
 
-     ```
      ./ilastik.sh
-     ```
 
