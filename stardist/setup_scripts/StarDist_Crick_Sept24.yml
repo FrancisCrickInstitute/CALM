@@ -1,0 +1,33 @@
+name: StarDist_Crick_Sept24
+channels:
+  - conda-forge
+  - bioconda
+  - default
+  - defaults
+dependencies:
+  - pip #=21.2.4
+  - python=3.8.0
+  - pip:
+    - astropy==5.1.1
+#    - csbdeep #==0.6.3
+    - fpdf #==1.7.2
+    - gputools #==0.2.12
+    - h5py #==2.10.0
+    - ipykernel #==6.26.0
+    - matplotlib #==3.4.3
+    - numba #==0.56.4
+#    - numpy==1.18.5 # install manually with --ignore-installed
+    - opencv-python #==4.5.3.56
+    - pandas #==1.3.3
+    - protobuf #==3.20.0
+    - pygments #==2.10.0
+    - pyopencl #==2021.2.6
+    - pexpect
+    - pyzmq
+    - remote_ikernel
+    - ikernel_remote #==1.0.2
+    - scipy #==1.8.1
+    - scikit-learn #==0.0
+    - tensorflow==2.5
+    - tifffile #==2021.8.30
+    - wget #==3.2
