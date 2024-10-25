@@ -7,6 +7,7 @@ The first half of the course is just intro to HPC. The aim of the course is to i
 
 
 __What's here__
+
 In the _Presentations_ folder you will find powerpoints and pdfs of the presentations made during the Intro to HPC and Intro to Machine Learning with StarDist course.
 
 
