@@ -17,7 +17,7 @@ __What's here__
 
 In the _Presentations_ folder you will find powerpoints and pdfs of the presentations made during the Intro to HPC and Intro to Machine Learning with StarDist course.
 
-__Setup_Scripts__ have the yml files needed to install StarDist and the other needed python packages on nemo. 
+__Setup_Scripts__ have the yml files needed to install StarDist and the other needed python packages on nemo. To run a script, navigate to the folder in which the script is in, and type ./ScriptName.sh  If you do not know how to navigate using the terminal, take our course!
 
 Running StarDist_bash_Sept24.sh shell script in the nemo teminal will install all the needed packages on nemo and link the kernel to the jupyter notebooks on nemo.
 
