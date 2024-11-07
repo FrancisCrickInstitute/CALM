@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<MetaData>
+  <NumberOfImages>1</NumberOfImages>
+  <Image mIndex="0">
+    <BaseFileConverter>ImarisConvert</BaseFileConverter>
+    <BaseDescription>Bitplane: Imaris 5.5</BaseDescription>
+    <BaseDimension>495 495 80 1 1</BaseDimension>
+    <BaseFileExtension>ims</BaseFileExtension>
+    <BaseNumberOfDataSets>1</BaseNumberOfDataSets>
+    <BaseHasSettings>true</BaseHasSettings>
+    <BaseForcedVoxelSize>0.000 0.000 0.000</BaseForcedVoxelSize>
+    <ImplSeriesConfigurable>false</ImplSeriesConfigurable>
+    <ImplActiveDataSetIndex>0</ImplActiveDataSetIndex>
+    <ImplActiveResolutionLevel>0</ImplActiveResolutionLevel>
+    <ImplDataBlockNumberOfVoxels>524288</ImplDataBlockNumberOfVoxels>
+    <ImplDataBlockSizeV>256 64 32 1 1</ImplDataBlockSizeV>
+    <ImplDataSizeV>495 495 80 1 1</ImplDataSizeV>
+    <ImplDataType>UInt16</ImplDataType>
+    <ImplDimensionSequence>0 1 2 3 4</ImplDimensionSequence>
+    <ImplExtendMax>495.000 495.000 80.000</ImplExtendMax>
+    <ImplExtendMin>0.000 0.000 0.000</ImplExtendMin>
+    <ImplMergeImages>false</ImplMergeImages>
+    <ImplNumberOfDataBlocks>48</ImplNumberOfDataBlocks>
+    <ImplNumberOfDataSets>1</ImplNumberOfDataSets>
+    <ImplNumberOfResolutions>3</ImplNumberOfResolutions>
+    <ImplReaderDescription>Bitplane: Imaris 5.5</ImplReaderDescription>
+    <ImplReaderExtension>ims</ImplReaderExtension>
+    <ImplNaNCheckStatus>false</ImplNaNCheckStatus>
+    <ImplParameters><![CDATA[[Channel 0]
+Name = (name not specified)
+[Image]
+Description = (description not specified)
+ExtMax0 = 495
+ExtMax1 = 495
+ExtMax2 = 80
+ExtMin0 = 0
+ExtMin1 = 0
+ExtMin2 = 0
+LensPower = 
+MicroscopeModality = 
+Name = (name not specified)
+NumericalAperture = 
+OriginalFormat = TIFF
+OriginalFormatFileIOVersion = ImarisFileIO x64 10.0.0
+RecordingDate = 2023-10-16 13:22:00.000
+ResampleDimensionX = true
+ResampleDimensionY = true
+ResampleDimensionZ = true
+Unit = um
+X = 495
+Y = 495
+Z = 80
+[ImarisDataSet]
+Creator = Imaris x64
+NumberOfImages = 1
+Version = 10.0
+[Log]
+Entries = 0
+]]>
+</ImplParameters>
+    <ImplSeriesFileValid>false</ImplSeriesFileValid>
+  </Image>
+</MetaData>

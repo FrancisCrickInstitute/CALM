@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<MetaData>
+  <NumberOfImages>1</NumberOfImages>
+  <Image mIndex="0">
+    <BaseFileConverter>ImarisConvert</BaseFileConverter>
+    <BaseDescription>Bitplane: Imaris 5.5</BaseDescription>
+    <BaseDimension>495 495 320 1 1</BaseDimension>
+    <BaseFileExtension>ims</BaseFileExtension>
+    <BaseNumberOfDataSets>1</BaseNumberOfDataSets>
+    <BaseHasSettings>true</BaseHasSettings>
+    <BaseForcedVoxelSize>0.000 0.000 0.000</BaseForcedVoxelSize>
+    <ImplSeriesConfigurable>false</ImplSeriesConfigurable>
+    <ImplActiveDataSetIndex>0</ImplActiveDataSetIndex>
+    <ImplActiveResolutionLevel>0</ImplActiveResolutionLevel>
+    <ImplDataBlockNumberOfVoxels>524288</ImplDataBlockNumberOfVoxels>
+    <ImplDataBlockSizeV>256 64 32 1 1</ImplDataBlockSizeV>
+    <ImplDataSizeV>495 495 320 1 1</ImplDataSizeV>
+    <ImplDataType>UInt16</ImplDataType>
+    <ImplDimensionSequence>0 1 2 3 4</ImplDimensionSequence>
+    <ImplExtendMax>80.190 80.190 64.000</ImplExtendMax>
+    <ImplExtendMin>0.000 0.000 0.000</ImplExtendMin>
+    <ImplMergeImages>false</ImplMergeImages>
+    <ImplNumberOfDataBlocks>160</ImplNumberOfDataBlocks>
+    <ImplNumberOfDataSets>1</ImplNumberOfDataSets>
+    <ImplNumberOfResolutions>4</ImplNumberOfResolutions>
+    <ImplReaderDescription>Bitplane: Imaris 5.5</ImplReaderDescription>
+    <ImplReaderExtension>ims</ImplReaderExtension>
+    <ImplNaNCheckStatus>false</ImplNaNCheckStatus>
+    <ImplParameters><![CDATA[[Channel 0]
+Name = (name not specified)
+[Image]
+Description = (description not specified)
+ExtMax0 = 80.190002441
+ExtMax1 = 80.190002441
+ExtMax2 = 64.000000000
+ExtMin0 = 0.000000000
+ExtMin1 = 0.000000000
+ExtMin2 = 0.000000000
+Name = (name not specified)
+OriginalFormat = TIFF
+OriginalFormatFileIOVersion = ImarisFileIO x64 10.0.0
+RecordingDate = 2023-10-16 13:22:00
+ResampleDimensionX = true
+ResampleDimensionY = true
+ResampleDimensionZ = true
+Unit = um
+X = 495
+Y = 495
+Z = 320
+[ImarisDataSet]
+Creator = Imaris Convert Bioformats
+NumberOfImages = 1
+Version = 10.0.0
+[Log]
+Entries = 0
+]]>
+</ImplParameters>
+    <ImplSeriesFileValid>false</ImplSeriesFileValid>
+  </Image>
+</MetaData>
