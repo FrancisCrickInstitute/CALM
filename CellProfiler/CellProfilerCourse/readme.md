@@ -7,4 +7,7 @@ Please download CellProfiler from the CellProfiler website at : https://cellprof
 Please download version 4.2.8, and Windows or Mac depending on your computer
 
 Course Files and FIJI:
-We have precompiled a version of FIJI for this course that has the plugins needed for the course. It is included as a zip file within the course files. 
+We have a directory of course files that will be used in the course. They are grouped by the task in the PowerPoint presentation that calls for them.
+
+If you are taking the course at the Crick, we will give you a precompiled version of Fiji that has StarDist installed on it.  If you are here for fun, you will need to download Fiji at 
+[Fiji Downloads](https://imagej.net/software/fiji/downloads). You will also need to add the StarDist plugin, the directions to do that can be found [here](https://imagej.net/plugins/stardist).
