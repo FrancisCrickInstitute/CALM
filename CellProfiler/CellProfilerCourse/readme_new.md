@@ -15,3 +15,5 @@ If you are taking the course at the Crick, we will give you a precompiled versio
 
 The powerpoint slides will help you understand the thought process we use while teaching CellProfiler. Our motivation isn't to have you learn every single module by heart, but rather, learn how to investigate the modules and figure out which one will be most useful to you for your image analysis problem. We do want you to learn how the basics work, so we will spend a lot of time on Primary, Secondary and Tertiary objects, and relating objects.
 
+.
+
