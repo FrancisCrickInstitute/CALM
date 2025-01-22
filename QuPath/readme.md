@@ -9,6 +9,19 @@
 
 * At anypoint you want to run QuPath, you can run the script **./RunQuPath.sh** from your home directory (the first directory that opens when you start xterm)
 
+* If you encounter an error when trying to run the installation script, it is likely due to the script not having execute permissions. To resolve this issue, run the following command
+```
+     chmod +x install_QuPath5.1_w_download.sh
+```
+* Verify the x ('execute') permission is now present by running:
+```
+    ls -l install_QuPath5.1_w_download.sh
+```
+Now, try running the script again:
+
+     ./install_QuPath5.1_w_download.sh
+
+
 #### Installing QuPath in your working directory (The harder way)
 * Download QuPath for Linux and put it in your working directory on nemo. It will have a file extension of .tar.xz
 * Open up an OnDemand GPU Desktop. For instructions on how to do this, see [this documentation].
