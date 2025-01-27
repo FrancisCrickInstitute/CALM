@@ -28,5 +28,5 @@ Now, try running the script again:
 * Open up a terminal in OnDemand (right click anywhere on the screen and open up xterm)
 * Navigate to the folder on Nemo in which you put the QuPath installation file (this is __/path/to/QuPath__)
 * use the command __tar -xf QuPath-******.tar.xz__ Where the ***** represents the version of QuPath
-* use the command __chomd u+x /path/to/QuPath/bin/QuPath__ to change the permissions of the launcher
+* use the command __chmod u+x /path/to/QuPath/bin/QuPath__ to change the permissions of the launcher
 * Navigate to the folder /path/to/QuPath/bin/ and type in __./QuPath__ to run QuPath
