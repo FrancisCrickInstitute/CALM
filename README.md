@@ -2,15 +2,20 @@
 
 # Greetings & Welcome
 
-If you want to know how to install and run image analysis software on [OnDemand](https://openondemand.org/), you've come to the right place. See below for instructions for specific softwares.
-* [CellProfiler](CellProfiler/README.md)
-* [Cellpose](Cellpose/Run_Cellpose_From_FIJI_on_OnDemand.md)
-* [FIJI](Fiji/readme.md)
-* [ilastik](Ilastik/readme.md)
-* [QuPath](QuPath/readme.md)
-* [StarDist](stardist/StarDist.md)
+We are the Image Analysis Group at the Francis Crick Institute. Images are essentially grids of numbers and Image analysis allows for the translation of these numbers into insights. Talk to us about analysis prior to acquiring any image data - we're happy to provide all the training you need.
 
-> If you're looking for something else, or just want to find out more about what we do, please see our [Wiki](https://github.com/FrancisCrickInstitute/CALM/wiki).
+![image](https://github.com/user-attachments/assets/90ef3971-97f6-4b9a-859c-5239eed06a5a)
+
+Senft RA, Diaz-Rohrer B, Colarusso P, Swift L, Jamali N, et al. (2023) A biologist’s guide to planning and performing quantitative bioimaging experiments. PLOS Biology 21(6): e3002167. https://doi.org/10.1371/journal.pbio.3002167
+
+# How Can We Help?
+
+Feel free to get in touch at any time. We sit in Bioinformatics Suite in 3NE - we're right in front of the doors as you walk in. Otherwise, reach out on Slack or just email:
+* [Dave](https://www.crick.ac.uk/research/find-a-researcher/david-barry)
+* [Todd](https://www.crick.ac.uk/research/find-a-researcher/todd-fallesen)
+* [Sara](https://www.crick.ac.uk/research/find-a-researcher/sara-salgueiro-torres)
+
+See [here](./pages/OnDemand.md) for instructions on how to install and run image analysis software on [OnDemand](https://openondemand.org/). If you're looking for something else, or just want to find out more about what we do, please see our [Wiki](https://github.com/FrancisCrickInstitute/CALM/wiki).
 
 # Old Projects
 
