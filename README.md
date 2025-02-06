@@ -1,12 +1,8 @@
 ![Commit activity](https://img.shields.io/github/commit-activity/y/FrancisCrickInstitute/CALM?style=plastic) ![GitHub](https://img.shields.io/github/license/FrancisCrickInstitute/CALM?color=green&style=plastic)
 
-# Greetings & Welcome
+[![image](https://github.com/user-attachments/assets/90ef3971-97f6-4b9a-859c-5239eed06a5a)](https://doi.org/10.1371/journal.pbio.3002167)
 
-We are the Image Analysis Group at the Francis Crick Institute. Images are essentially grids of numbers and Image analysis allows for the translation of these numbers into insights. Talk to us about analysis prior to acquiring any image data - we're happy to provide all the training you need.
-
-![image](https://github.com/user-attachments/assets/90ef3971-97f6-4b9a-859c-5239eed06a5a)
-
-Senft RA, Diaz-Rohrer B, Colarusso P, Swift L, Jamali N, et al. (2023) A biologist’s guide to planning and performing quantitative bioimaging experiments. PLOS Biology 21(6): e3002167. https://doi.org/10.1371/journal.pbio.3002167
+Senft RA, Diaz-Rohrer B, Colarusso P, Swift L, Jamali N, et al. (2023) A biologist’s guide to planning and performing quantitative bioimaging experiments. PLOS Biology 21(6): e3002167.
 
 # How Can We Help?
 
