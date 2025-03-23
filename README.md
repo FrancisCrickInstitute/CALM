@@ -2,7 +2,7 @@
   <a href="https://doi.org/10.1371/journal.pbio.3002167"><img width="65%" src="https://github.com/user-attachments/assets/90ef3971-97f6-4b9a-859c-5239eed06a5a" alt="Senft et al"></a>
 </p>
 
-Senft RA, Diaz-Rohrer B, Colarusso P, Swift L, Jamali N, et al. (2023) A biologist’s guide to planning and performing quantitative bioimaging experiments. PLOS Biology 21(6): e3002167.
+>Senft RA, Diaz-Rohrer B, Colarusso P, Swift L, Jamali N, et al. (2023) A biologist’s guide to planning and performing quantitative bioimaging experiments. PLOS Biology 21(6): e3002167.
 
 # How Can We Help?
 
