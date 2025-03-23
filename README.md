@@ -4,6 +4,8 @@
 
 >Senft RA, Diaz-Rohrer B, Colarusso P, Swift L, Jamali N, et al. (2023) A biologist’s guide to planning and performing quantitative bioimaging experiments. PLOS Biology 21(6): e3002167.
 
+Images are essentially grids of numbers and image analysis allows for the translation of these numbers into insights. Talk to us about analysis prior to acquiring any image data - we're happy to provide all the training you need.
+
 # How Can We Help?
 
 Feel free to get in touch at any time. We sit in Bioinformatics Suite in 3NE - we're right in front of the doors as you walk in. Otherwise, reach out on Slack or just email:
